@@ -24,6 +24,7 @@
     url("../images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, left;
+  
 }
 /* header and navigation styles */
 nav {
@@ -198,4 +199,32 @@ margin-bottom: 30px;
 .resume-btn{
   text-align: center;
   margin-top: 50px;
+}
+
+/* contact style */
+
+.contact{
+  display: flex;
+  gap: 100px;
+  background: #FFF8F3;
+  padding: 130px 200px;
+}
+
+.contact .section-title{
+  text-align: left;
+}
+
+.contact input[type="text"],input[type="email"], textarea{
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+
+input{
+  height: 64px;
+}
+
+.contact a{
+  text-decoration: none;
 }
